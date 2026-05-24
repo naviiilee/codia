@@ -1,0 +1,213 @@
+body {
+    margin:0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4e0506;
+    padding: 10px 15px;
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    transition: 0.3s;
+    color: orange;
+}
+
+/* Main Content */
+section.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+.welcome-text {
+    max-width: 800px;
+}
+
+section h1 {
+    font-size: 55px;
+    margin: 10px 0;
+}
+
+section span {
+    color: #4e0506;
+    -webkit-text-stroke: 0.8px #cbd5f5;
+}
+
+.desc {
+    font-size: 18px;
+    color: #cbd5f5;
+    margin-bottom: 25px;
+}
+
+/* Button Section */
+
+.buttons button {
+    margin-right: 10px;
+    padding: 12px 22px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+}
+
+.join {
+    background: #4e0506;
+    color: white;
+    cursor: pointer;
+}
+
+.join:hover {
+    background-color: #330006;
+    transition: 0.3s;
+    transform: translateY(-5px)
+}
+
+.catalog {
+    background: transparent;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.catalog:hover {
+    text-decoration: underline;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Image */
+.student-image img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+/* Featured Section */
+main {
+    padding: 40px;
+}
+
+.featured-courses {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.featured-courses h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.featured-courses p {
+    color: #cbd5f5;
+    margin-bottom: 30px;
+}
+
+/* Course List Grid */
+.course-list {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Course Card */
+.course-item {
+    border: 2px solid #330006;
+    border-radius: 8px;
+    padding: 20px;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.course-item:hover {
+    background: #330006;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.course-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: 2px solid maroon;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.course-item a:hover {
+    background: white;
+    color: #330006;
+}
+
+/* Community Section */
+.community {
+    text-align: center;
+    padding: 40px;
+    border: 2px solid maroon;
+    border-radius: 10px;
+    background: rgba(128, 0, 0, 0.2);
+}
+
+.community h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.community p {
+    margin-bottom: 20px;
+    color: #cbd5f5;
+}
+
+.community a {
+    padding: 10px 20px;
+    height: 40px;
+    border: 2px solid #330006;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.community a:hover {
+    background: maroon;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background: #4e0506;
+    padding: 60px;
+    color: #cbd5e1;
+    height: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col h3, .footer-col h4 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    margin: 6px 0;
+    font-size: 14px;
+}

@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#f8fafc;
+    color:#1e293b;
+    display:flex;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width:240px;
+    background:#ffffff;
+    height:100vh;
+    padding:20px;
+    border-right:1px solid #e2e8f0;
+}
+
+.sidebar h2{
+    color:#b91c1c; /* changed from blue to red */
+    margin-bottom:30px;
+}
+
+.sidebar a{
+    display:block;
+    padding:10px;
+    margin-bottom:10px;
+    text-decoration:none;
+    color:#475569;
+    border-radius:8px;
+    transition:0.2s;
+}
+
+.sidebar a:hover{
+    background:#fee2e2; /* light red hover */
+    color:#b91c1c; /* red text on hover */
+}
+
+/* MAIN CONTENT */
+.main{
+    flex:1;
+}
+
+.header{
+    padding:20px;
+    font-size:24px;
+    font-weight:bold;
+    color:#0f172a;
+}
+
+/* CONTAINER */
+.container{
+    padding:20px;
+}
+
+/* GRID */
+.course-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+}
+
+/* COURSE CARD */
+.course-card{
+    background:#ffffff;
+    padding:20px;
+    border-radius:12px;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.course-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.course-card h3{
+    margin-top:0;
+    color:#0f172a;
+}
+
+.course-card p{
+    color:#64748b;
+    font-size:14px;
+}
+
+/* BUTTON */
+.enroll-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 15px;
+    background:#b91c1c; /* red button */
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.enroll-btn:hover{
+    background:#991b1b; /* darker red on hover */
+}

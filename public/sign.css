@@ -1,0 +1,101 @@
+/* General body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* light background */
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Wrapper to center everything */
+.signup-wrapper {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Motivation section */
+.motivation h2 {
+    font-size: 26px;
+    color: #e60000; /* red heading */
+    margin-bottom: 10px;
+}
+
+.motivation p {
+    color: #ff6666; /* light red text */
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Signup form */
+.signup-form {
+    background-color: #ffffff; /* white form background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+/* Form heading */
+.signup-form h1 {
+    margin-bottom: 20px;
+    color: #e60000; /* red */
+}
+
+/* Input boxes */
+.signup-form .box {
+    margin-bottom: 15px;
+    margin-right: 10%;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #e60000; /* red border */
+    font-size: 14px;
+}
+
+/* Input focus */
+.signup-form input:focus {
+    border-color: #ff3333;
+    outline: none;
+    box-shadow: 0 0 5px #ff9999;
+}
+
+/* Signup button */
+.signup-form .btn button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e60000; /* red button */
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-form .btn button:hover {
+    background-color: #ff3333;
+    transform: scale(1.05);
+}
+
+/* Create account link */
+.signup-form .create {
+    margin-top: 15px;
+}
+
+.signup-form .create-btn {
+    color: #e60000; /* red link */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.signup-form .create-btn:hover {
+    color: #ff6666; /* light red on hover */
+    text-decoration: underline;
+}
